@@ -1,0 +1,29 @@
+{
+  "name": "tmo-stylelint",
+  "version": "0.1.0",
+  "description": "default stylelint settings",
+  "main": "src/style-lint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "private": false,
+  "author": "Tim O'Dell",
+  "license": "MIT",
+  "keywords": [
+    "stylelint",
+    ".stylelintrc",
+    "scss",
+    "lint"
+  ],
+  "peerDependencies": {
+    "stylelint": "^11.0.0",
+    "stylelint-config-recommended-scss": "^4.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-order": "^3.1.1",
+    "stylelint-scss": "^3.11.1"
+  }
+}
